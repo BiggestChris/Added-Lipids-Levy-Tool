@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block title %}
+    Homepage
+{% endblock %}
+{% block content %}
+    
+    <h1>Welcome</h1>
+
+    <p>
+        This is the Nesta Added Lipids Levy tool.
+    </p>
+
+
+    <!-- Flash messages section
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <div>
+            {% for category, message in messages %}
+            <div class="flash-message {{ category }}">{{ message }}</div>
+            {% endfor %}
+            </div>
+        {% endif %}
+    {% endwith %}
+     -->
+
+    
+
+{% endblock %}
