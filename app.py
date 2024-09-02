@@ -20,6 +20,31 @@ TODO: ADd tasks
 @app.route("/", methods=['GET', 'POST'])
 def index():
     return render_template("index.html")
+
+
+@app.route("/recipe", methods=['GET', 'POST'])
+def recipe():
+    if request.method == 'POST':
+        session['recipe'] = request.form.get('recipe')
+
+        print(session['recipe'])
+
+        return redirect("/results")
+
+    return render_template("recipe.html")
+
+
+@app.route("/results", methods=['GET'])
+def results():
+    # Safely check if 'recipe' exists in the session
+    recipe = session.get('recipe')
+    if recipe:
+        # Handle the case where the recipe is found
+        return render_template("results.html", recipe=recipe)
+ 
+    else:
+        # Handle the case where the recipe is not found
+        return render_template("results.html", recipe='No recipe entered yet')        
     
 
 if __name__ == "__main__":

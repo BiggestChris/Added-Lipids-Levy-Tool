@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block title %}
+    Recipe
+{% endblock %}
+{% block content %}
+    
+    <h1>Welcome</h1>
+
+    <p>
+        Please write out your recipe below.
+    </p>
+
+    <form method="POST" action="/recipe" enctype="multipart/form-data">
+        <textarea name="recipe" placeholder="Please insert recipe here"></textarea>
+        <input type="submit" value="Upload" />
+    </form>
+
+{% endblock %}
