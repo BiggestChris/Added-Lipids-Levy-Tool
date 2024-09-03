@@ -1,0 +1,74 @@
+Source:
+    ChatGPT prompt - Can you please give me a recipe for a really tasty cake
+
+Recipe:
+    Sure! Here's a recipe for a Moist and Delicious Chocolate Cake that's rich, flavorful, and perfect for any occasion. This cake is layered with a velvety chocolate frosting that will make it irresistibly tasty.
+
+    Moist Chocolate Cake Recipe
+    Ingredients:
+    For the Cake:
+    1 ¾ cups all-purpose flour
+    ¾ cup unsweetened cocoa powder
+    1 ½ tsp baking powder
+    1 ½ tsp baking soda
+    1 tsp salt
+    2 cups granulated sugar
+    2 large eggs
+    1 cup whole milk
+    ½ cup vegetable oil (or melted butter)
+    2 tsp vanilla extract
+    1 cup boiling water
+    ½ cup buttermilk (or sour cream for extra richness)
+    For the Chocolate Frosting:
+    1 cup unsalted butter, softened
+    2/3 cup unsweetened cocoa powder
+    3 cups powdered sugar
+    1/3 cup heavy cream (plus more if needed)
+    2 tsp vanilla extract
+    Pinch of salt
+    Instructions:
+    Step 1: Make the Cake
+    Preheat the oven: Preheat your oven to 350°F (180°C). Grease and flour two 9-inch round cake pans and line the bottoms with parchment paper.
+
+    Mix the dry ingredients: In a large mixing bowl, sift together the flour, cocoa powder, baking powder, baking soda, and salt. Stir in the granulated sugar until well combined.
+
+    Add the wet ingredients: In a separate bowl, whisk together the eggs, milk, vegetable oil (or melted butter), and vanilla extract. Gradually add the wet mixture to the dry ingredients and stir until well combined.
+
+    Add boiling water: Slowly add the cup of boiling water to the batter, whisking until the batter is smooth and runny. This step makes the cake extra moist.
+
+    Add buttermilk: Stir in the buttermilk (or sour cream) to add richness and keep the cake tender.
+
+    Bake the cake: Divide the batter evenly between the prepared pans. Bake for 30-35 minutes, or until a toothpick inserted into the center of the cakes comes out clean.
+
+    Cool the cakes: Allow the cakes to cool in the pans for about 10 minutes, then transfer them to a wire rack to cool completely.
+
+    Step 2: Make the Frosting
+    Cream the butter: In a large mixing bowl, beat the softened butter on medium speed for about 2 minutes until light and fluffy.
+
+    Add cocoa powder: Sift in the cocoa powder and mix until combined.
+
+    Add powdered sugar: Gradually add the powdered sugar, one cup at a time, beating on low speed until incorporated.
+
+    Add heavy cream and vanilla: Pour in the heavy cream, vanilla extract, and a pinch of salt. Increase the mixer speed to medium-high and beat the frosting for about 2-3 minutes until it's smooth and fluffy. Add more cream if needed to achieve a spreadable consistency.
+
+    Step 3: Assemble the Cake
+    Level the cakes: If needed, use a serrated knife to level the tops of your cakes to ensure they are even.
+
+    Frost the cake: Place one cake layer on a serving plate and spread a generous amount of frosting on top. Place the second layer on top and frost the top and sides of the cake evenly.
+
+    Decorate: Use the remaining frosting to pipe decorative swirls on the cake or garnish with chocolate shavings, sprinkles, or fresh fruit.
+
+    Step 4: Serve
+    Slice and enjoy this rich, moist, and decadent chocolate cake with friends and family. It pairs perfectly with a glass of cold milk or a cup of coffee.
+    Tips:
+    Room Temperature Ingredients: Make sure your eggs, butter, and milk are at room temperature for the best texture in both the cake and frosting.
+    Customizations: You can add a layer of fresh berries or a fruit compote between the layers for added flavor. You can also add espresso powder to the frosting for a mocha flavor twist.
+    This cake is a classic and will surely impress with its moist texture and rich chocolate flavor!
+
+functions_GPT response - Time: 06:18 - 3rd Sep 2024
+    Recipe: Moist and Delicious Chocolate Cake
+    Unnecessary lipids: Vegetable oil in the cake, heavy cream and unsalted butter in the frosting
+    Excess calories: The excess calories from the unnecessary lipids would be around 750 calories
+    Levy: The levy for the unnecessary fatty calories would be £3
+
+    Suggestions: To reduce unnecessary lipids and calories, you can consider using applesauce or mashed bananas as a substitute for some of the oil in the cake. Additionally, you can reduce the amount of butter in the frosting by using a combination of Greek yogurt and cocoa powder for a lighter option. Cutting back on the heavy cream and butter can significantly reduce the overall calories while still keeping the cake moist and delicious.

@@ -1,0 +1,65 @@
+Source: 
+    ChatGPT prompt - Do you have the recipe Domino's pizza uses for their Pepperoni Passion pizza in the UK?
+
+Recipe:
+    While Domino's exact recipe for their Pepperoni Passion pizza in the UK is proprietary and not publicly available, you can create a close approximation at home by using high-quality ingredients and following a similar method. The Pepperoni Passion pizza is known for its double layer of pepperoni and extra cheese on top, and here's a recipe that aims to recreate that experience:
+
+    Copycat Domino's Pepperoni Passion Pizza Recipe
+    Ingredients:
+    For the Dough (makes 2 medium pizzas):
+    3 ½ cups all-purpose flour
+    1 ¼ cups warm water (110°F)
+    2 tsp sugar
+    2 tsp salt
+    2 tsp active dry yeast
+    2 tbsp olive oil
+    For the Sauce:
+    1 cup tomato passata (or high-quality pizza sauce)
+    1 tbsp olive oil
+    1 tsp dried oregano
+    1 tsp dried basil
+    ½ tsp garlic powder
+    Salt and pepper to taste
+    1 tsp sugar (optional, to balance acidity)
+    For the Toppings:
+    3 cups shredded mozzarella cheese
+    1 ½ to 2 cups sliced pepperoni (use a high-quality type similar to what Domino’s uses)
+    1 cup shredded cheddar cheese (optional, for added flavor)
+    Olive oil (for brushing the crust)
+    Dried oregano (optional, for garnish)
+    Instructions:
+    Step 1: Make the Dough
+    Activate the yeast: In a small bowl, mix the warm water, sugar, and active dry yeast. Stir and let sit for about 5-10 minutes until the yeast becomes frothy.
+    Mix the dough: In a large mixing bowl, combine the flour and salt. Slowly add the yeast mixture and olive oil. Mix until a rough dough forms.
+    Knead the dough: Transfer the dough to a floured surface and knead for 8-10 minutes until it becomes smooth and elastic. Add more flour if needed to prevent sticking.
+    Let the dough rise: Place the dough in an oiled bowl, cover it with a damp cloth, and let it rise for about 1-1.5 hours in a warm place, until doubled in size.
+    Step 2: Prepare the Pizza Sauce
+    Cook the sauce: In a small saucepan, heat olive oil over medium heat. Add the tomato passata, dried oregano, dried basil, garlic powder, salt, pepper, and sugar. Simmer for 10-15 minutes, stirring occasionally, until slightly thickened. Adjust seasoning to taste. Set aside to cool.
+    Step 3: Shape the Dough
+    Preheat the oven: Preheat your oven to its highest temperature (typically 240°C/465°F or higher). If using a pizza stone, place it in the oven to preheat as well.
+    Shape the dough: Once the dough has risen, divide it into two portions. On a floured surface, roll each portion into a round pizza shape about 12 inches in diameter, or stretch it by hand for a more rustic look.
+    Step 4: Assemble the Pizza
+    Prepare the base: Place the dough onto a pizza tray or preheated pizza stone. Spread a thin layer of the prepared tomato sauce evenly over the base, leaving about 1 inch around the edges for the crust.
+    Add the cheese: Scatter about 1 ½ cups of shredded mozzarella cheese evenly across the pizza.
+    Layer the pepperoni: Arrange a layer of pepperoni slices on top of the cheese, covering the entire surface generously.
+    Add more cheese and pepperoni: Sprinkle another layer of shredded mozzarella (and cheddar if using) on top of the pepperoni, followed by another layer of pepperoni slices. This double layer of pepperoni and cheese is what makes the Pepperoni Passion so indulgent.
+    Brush the crust: Lightly brush the exposed crust with olive oil to help it brown and develop a nice texture during baking.
+    Step 5: Bake the Pizza
+    Bake: Transfer the pizza to the preheated oven (or pizza stone) and bake for 10-12 minutes, or until the cheese is melted, bubbly, and slightly golden, and the crust is cooked through and crispy.
+    Optional: Once out of the oven, sprinkle the pizza with a little dried oregano for added flavor and authenticity.
+    Step 6: Serve
+    Slice the pizza and enjoy your homemade version of Domino's Pepperoni Passion! The combination of the crispy crust, gooey melted cheese, and double layers of pepperoni will deliver a similar flavor profile to the original.
+    This recipe should give you a delicious homemade version that closely mimics the Domino's Pepperoni Passion pizza.
+
+functions_GPT response - Time: 05:57 - 3rd Sep 2024
+    Recipe: Copycat Domino's Pepperoni Passion Pizza
+    Unnecessary lipids: Olive oil (for dough and sauce), shredded mozzarella cheese, shredded cheddar cheese, pepperoni
+    Excess calories: The unnecessary lipids in this recipe contribute to excess calories, primarily from the olive oil and cheeses.
+    Levy: The excess fat present in the unnecessary lipids warrants a levy of £1.
+
+    Suggestions:
+    1. Use less olive oil: While olive oil is a common ingredient in pizza recipes, you can reduce the amount used for brushing the crust to cut down on unnecessary fats.
+    2. Opt for reduced-fat cheeses: Consider using part-skim mozzarella cheese or reducing the overall amount of cheese to decrease the calorie content.      
+    3. Choose turkey or chicken pepperoni: These leaner protein options can mimic the flavor of traditional pepperoni while reducing the saturated fats and calories.
+    4. Increase vegetable toppings: Adding more vegetables like bell peppers, mushrooms, or spinach can enhance the flavor and nutritional value of the pizza 
+    without relying solely on fatty ingredients.
