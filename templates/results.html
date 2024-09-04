@@ -6,8 +6,19 @@
     
     <h1>Results</h1>
 
-    <h3>Recipe entered</h3>
+    <h3>Recipe entered:</h3>
+    <p>
+        <pre class="custom-pre">{{ recipe }}</pre>
+    </p>
 
-    <p>{{ recipe }}</p>
+
+    <h3>Results:</h3>
+    <p>
+        <pre class="custom-pre">{{ results }}</pre>
+    </p>
+
+    <form method="POST" action="/results" enctype="multipart/form-data">
+        <input type="submit" value="Generate results" />
+    </form>
 
 {% endblock %}

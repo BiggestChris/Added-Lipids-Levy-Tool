@@ -27,3 +27,13 @@ a {
 #logo {
     margin-right: 20px;
 }
+
+pre.custom-pre {
+    font-family: inherit; /* Inherit font from the parent element */
+    font-size: inherit; /* Inherit font size from the parent element */
+    white-space: pre-wrap; /* Preserve whitespace and line breaks */
+    word-wrap: break-word; /* Break long words if necessary */
+    background-color: transparent; /* Remove the default grey background */
+    border: none; /* Remove any borders applied by Bootstrap */
+    padding: 0; /* Adjust padding to suit your layout */
+}
