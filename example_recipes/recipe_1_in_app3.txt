@@ -1,0 +1,55 @@
+Source:
+    ChatGPT prompt - Please give me a recipe for a pizza with excess amounts of oil/butter used to make it really tasty
+
+Recipe:
+    Here's a recipe for a super indulgent, flavorful pizza with a generous amount of oil and butter to make it rich and delicious. This pizza has a crispy, buttery crust and a lot of flavor in every bite.
+
+    Buttery, Cheesy Garlic Pizza Recipe
+    Ingredients:
+    Dough:
+    3 ½ cups all-purpose flour
+    1 tsp sugar
+    2 tsp salt
+    1 packet active dry yeast (2 ¼ tsp)
+    1 ¼ cups warm water (110°F)
+    2 tbsp olive oil (for dough)
+    4 tbsp melted butter (for brushing)
+    Garlic Butter Sauce:
+    6 tbsp unsalted butter
+    3 cloves garlic, finely minced
+    1 tbsp olive oil
+    1 tsp dried oregano
+    1 tsp dried basil
+    ½ tsp salt
+    ¼ tsp red pepper flakes (optional)
+    Toppings:
+    2 cups shredded mozzarella cheese
+    ½ cup grated Parmesan cheese
+    1 cup ricotta cheese (optional)
+    ¼ cup olive oil (for drizzling)
+    Fresh basil leaves (optional, for garnish)
+    Instructions:
+    Step 1: Prepare the Dough
+    Activate the yeast: In a small bowl, combine warm water, sugar, and active dry yeast. Stir gently and let it sit for about 5-10 minutes until the yeast becomes foamy and bubbles.
+    Mix the dough: In a large mixing bowl, combine the flour and salt. Slowly pour in the yeast mixture and olive oil, mixing with a wooden spoon until it starts to form a rough dough.
+    Knead the dough: Transfer the dough onto a floured surface and knead it for 8-10 minutes until it's smooth and elastic. Add a little more flour if it feels too sticky.
+    Let the dough rise: Form the dough into a ball and place it in a lightly oiled bowl. Cover with a kitchen towel and let it rise in a warm area for 1 to 1.5 hours, or until it doubles in size.
+    Step 2: Prepare the Garlic Butter Sauce
+    Melt the butter: In a small saucepan, melt the butter over medium heat.
+    Add garlic and herbs: Once the butter is melted, add the minced garlic and cook for 1-2 minutes until fragrant (don’t let it brown). Stir in the olive oil, dried oregano, dried basil, salt, and red pepper flakes. Let it cook for another 1 minute, then remove it from the heat.
+    Step 3: Assemble the Pizza
+    Preheat the oven: Preheat your oven to 500°F (260°C), or as high as your oven will go. If you have a pizza stone, place it in the oven to heat up.
+    Shape the dough: Punch down the dough and roll it out onto a floured surface. Shape it into your desired size—12 to 14 inches for a regular-sized pizza, or divide the dough for smaller pizzas. You can stretch it by hand for a more rustic look.
+    Prepare the pan: Brush a pizza pan (or baking sheet) generously with melted butter and olive oil, making sure to coat the entire surface to get a crispy, flavorful crust.
+    Butter the crust: Transfer the dough to the prepared pan. Brush the entire surface of the dough, especially the edges, with some of the garlic butter sauce, reserving some sauce for later.
+    Step 4: Add Toppings
+    Cheese and butter layering: Spread a light layer of ricotta cheese (if using) over the dough, then sprinkle shredded mozzarella cheese evenly across the pizza. Follow with grated Parmesan.
+    Drizzle with more garlic butter: Drizzle the remaining garlic butter sauce over the cheese. This will give the pizza a rich garlic flavor. Add some olive oil drizzles on top for extra richness.
+    Step 5: Bake the Pizza
+    Bake: Place the pizza in the preheated oven and bake for 10-12 minutes, or until the cheese is bubbling and the crust is golden brown and crispy. Keep an eye on it towards the end to ensure it doesn’t burn.
+    Finishing touches: Once out of the oven, brush the crust with any remaining melted butter for extra flavor and shine. If desired, garnish with fresh basil leaves.
+    Step 6: Serve
+    Let the pizza cool for a couple of minutes before slicing. This indulgent pizza will have a buttery, garlicky crust with rich layers of cheese, making every bite incredibly flavorful.
+    Enjoy your super tasty, buttery, and cheesy pizza!
+
+functions_GPT response - Time: 06:05 - 4th Sep 2024

@@ -37,3 +37,8 @@ pre.custom-pre {
     border: none; /* Remove any borders applied by Bootstrap */
     padding: 0; /* Adjust padding to suit your layout */
 }
+
+.formatted-text {
+    white-space: pre-wrap; /* Preserves whitespace like <pre> */
+    font-family: inherit; /* Inherit the page's default font */
+}

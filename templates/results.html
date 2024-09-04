@@ -8,13 +8,13 @@
 
     <h3>Recipe entered:</h3>
     <p>
-        <pre class="custom-pre">{{ recipe }}</pre>
+        <pre class="custom-pre" >{{ recipe }}</pre>
     </p>
 
 
     <h3>Results:</h3>
     <p>
-        <pre class="custom-pre">{{ results }}</pre>
+        <pre class="custom-pre" >{{ results|safe }}</pre>
     </p>
 
     <form method="POST" action="/results" enctype="multipart/form-data">

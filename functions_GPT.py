@@ -27,13 +27,13 @@ def comprehend_data(input_data):
                     that are 'fatty' (so again - oils, butters, creams) think through again whether that's necessary and how many 'unnecessary' calories
                     it has added. You will apply a levy based on those unnecessary fatty calories in increments of £1 per 250 calories - so if an extra 250 calories a levy of £1, for
                     and extra 500 calories a levy of £2, an extra 750 calories would be a levy of £3 and so on.
-                    Please output to a user the following (in the following format):
-                    Recipe: 'the outcome of what they are making - e.g. cake, pizza'
-                    Unnecessary lipids: 'the extra fat-based foods discussed above'
-                    Excess calories: 'the excess calories from the unnecessary lipids'
-                    Levy: 'the levy that is being applied as a result'
+                    Please output to a user the following (in the following format with the headings in bold):
+                    <strong>Recipe</strong>: 'the outcome of what they are making - e.g. cake, pizza'
+                    <strong>Unnecessary lipids</strong>: 'the extra fat-based foods discussed above'
+                    <strong>Excess calories</strong>: 'the excess calories from the unnecessary lipids'
+                    <strong>Levy</strong>: 'the levy that is being applied as a result'
                     Then on a new paragraph:
-                    Suggestions: 'suggestions on how the recipe could be improved to reduce lipids/calories and ultimately the levy'
+                    <strong>Suggestions</strong>: 'suggestions on how the recipe could be improved to reduce lipids/calories and ultimately the levy'
                     """},
                     {"role": "user",
                     "content": input_data }
