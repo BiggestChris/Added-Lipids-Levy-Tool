@@ -4,6 +4,8 @@ from flask_session import Session
 # from functions import extract_github_details, fetch_github_repo_contents, read_text_file
 from functions_GPT import comprehend_data
 from requests.exceptions import RequestException
+from flask_sqlalchemy import SQLAlchemy
+from datetime import datetime
 
 app = Flask(__name__)
 
@@ -12,6 +14,15 @@ app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
+# Development config: connection string for local 
+
+app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DEV_DATABASE_URL')
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+db = SQLAlchemy(app)
+
+
+from models import ChatHistory
 
 '''
 TODO: Add tasks
@@ -38,6 +49,12 @@ def recipe():
 def results():
     if request.method == 'POST':
         session['results'] =  comprehend_data(session['recipe'])
+        # Create a new ChatHistory record
+        new_chat = ChatHistory(prompt=session['recipe'], response=session['results'])
+        
+        # Add and commit the record to the database
+        db.session.add(new_chat)
+        db.session.commit()
 
         return redirect("/results")
 
