@@ -76,6 +76,12 @@ def results():
             return render_template("results.html", recipe='No recipe entered yet', results='No results generated yet')        
     
 
+@app.route("/records", methods=['GET', 'POST'])
+def records():
+    records = ChatHistory.query.all()
+    return render_template("records.html", records=records)
+
+
 if __name__ == "__main__":
     port = int(os.environ.get('PORT', 5000))  # Default to 5000 if PORT is not set
     app.run(host='0.0.0.0', port=port)

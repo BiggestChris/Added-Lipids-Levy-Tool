@@ -1,0 +1,48 @@
+Source:
+    ChatGPT prompt - Can you please give me a recipe for a really tasty cake
+
+Recipe:
+    Here's a recipe for a delicious, juicy cheeseburger that will hit all the right notes!
+
+    Ingredients:
+    For the Burger Patties:
+
+    1 lb (450g) ground beef (80/20 for juiciness)
+    Salt and freshly ground black pepper
+    1 tsp Worcestershire sauce (optional, but adds great flavor)
+    1 tsp garlic powder
+    1 tsp onion powder
+    For Assembling:
+
+    4 burger buns (brioche buns work great for a rich flavor)
+    Butter for toasting the buns
+    4 slices of cheddar cheese (or your favorite cheese)
+    1 red onion, thinly sliced
+    1-2 ripe tomatoes, sliced
+    Lettuce leaves (Romaine or Iceberg)
+    Pickles (optional)
+    Ketchup, mustard, and mayonnaise for condiments (or your preferred sauces)
+    Instructions:
+    1. Prepare the Patties:
+    Mix the Ground Beef: In a large bowl, combine the ground beef with Worcestershire sauce (if using), garlic powder, and onion powder. Mix gently to avoid overworking the meat (over-mixing can make the patties tough).
+    Form the Patties: Divide the meat into 4 equal portions and shape into patties slightly larger than your buns (as they’ll shrink a little during cooking). Press a small dimple in the center of each patty with your thumb. This helps prevent the burgers from puffing up as they cook.
+    Season the Patties: Generously season both sides with salt and pepper.
+    2. Cooking the Patties:
+    Grill or Pan-Fry: Preheat your grill or a heavy skillet over medium-high heat. Cook the patties for about 3-4 minutes per side for medium doneness. Adjust the cooking time if you prefer them more or less done.
+    Add the Cheese: When you flip the patties, add a slice of cheese on top during the last 1-2 minutes of cooking. Cover the grill or place a lid over the skillet to help melt the cheese.
+    3. Toast the Buns:
+    Butter the insides of the buns and toast them on the grill or in the skillet for about 1-2 minutes until golden brown and slightly crispy.
+    4. Assemble the Cheeseburgers:
+    Spread your favorite condiments on the bottom bun (ketchup, mustard, mayo, or a combo).
+    Layer on the lettuce, tomato slices, and red onion.
+    Place the cheesy patty on top of the veggies.
+    Add pickles if desired, then place the top bun on the burger.
+    5. Serve:
+    Serve immediately with fries or your favorite sides, and enjoy the cheeseburger!
+    Extra Tips:
+    Optional Toppings: Sautéed mushrooms, crispy bacon, avocado, or caramelized onions can take your burger to the next level.
+    Rest the Patties: After cooking, let the patties rest for 2-3 minutes before assembling. This helps the juices redistribute and keeps the burger juicy.
+    Enjoy your delicious homemade cheeseburger!
+
+functions_GPT response - Time: 05:30 - 6th Sep 2024
+    
