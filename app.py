@@ -24,6 +24,11 @@ db = SQLAlchemy(app)
 
 from models import ChatHistory
 
+# Ensure the tables are created when the app starts if they don't already exist in the database
+with app.app_context():
+    db.create_all()
+
+
 '''
 TODO: Add tasks
 '''
