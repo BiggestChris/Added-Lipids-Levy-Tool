@@ -76,7 +76,7 @@ def results():
             return render_template("results.html", recipe='No recipe entered yet', results='No results generated yet')        
     
 
-@app.route("/records", methods=['GET', 'POST'])
+@app.route("/records", methods=['GET'])
 def records():
     records = ChatHistory.query.all()
     return render_template("records.html", records=records)

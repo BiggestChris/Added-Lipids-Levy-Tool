@@ -7,6 +7,7 @@
     <h1>Records [ADMIN ONLY]</h1>
 
     <div class="container mt-4">
+    {% if records %}
         <h2>Database Records</h2>
         <table class="table table-striped">
             <thead>
@@ -30,6 +31,9 @@
                 {% endfor %}
             </tbody>
         </table>
+    {% else %}
+        <p>No records found.</p>
+    {% endif %}
     </div>
 
 {% endblock %}
