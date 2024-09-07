@@ -11,8 +11,13 @@
     </p>
 
     <form method="POST" action="/recipe" enctype="multipart/form-data">
-        <textarea name="recipe" placeholder="Please insert recipe here"></textarea>
-        <input type="submit" value="Upload" />
+        <div class="col-md-6"> <!-- Adjust this column size to control the width -->
+            <div class="mb-3">
+                <label for="recipe-textarea" class="form-label"><strong>Recipe:</strong></label>
+                <textarea class="form-control" id="recipe-textarea" rows="9" name="recipe" placeholder="Please insert recipe here"></textarea>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Upload</button>
     </form>
 
 {% endblock %}
