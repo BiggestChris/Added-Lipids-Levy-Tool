@@ -30,7 +30,9 @@ with app.app_context():
 
 
 '''
-TODO: Add tasks
+TODO: Add error handling around API calls
+1. Calling ChatGPT
+2. Reading and writing to the database
 '''
 
 @app.route("/", methods=['GET', 'POST'])
