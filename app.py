@@ -42,6 +42,7 @@ def index():
 def recipe():
     if request.method == 'POST':
         session['recipe'] = request.form.get('recipe')
+        session['results'] = '' # Reset results
 
         # print(session['recipe'])
 

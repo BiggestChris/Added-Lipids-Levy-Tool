@@ -4,20 +4,22 @@
 {% endblock %}
 {% block content %}
     
-    <h1>Welcome</h1>
+    <h1>Recipe</h1>
 
-    <p>
-        Please write out your recipe below.
-    </p>
+    <div class="container mb-1">
+        <p>
+            Please write out your recipe below.
+        </p>
 
-    <form method="POST" action="/recipe" enctype="multipart/form-data">
-        <div class="col-md-6"> <!-- Adjust this column size to control the width -->
-            <div class="mb-3">
-                <label for="recipe-textarea" class="form-label"><strong>Recipe:</strong></label>
-                <textarea class="form-control" id="recipe-textarea" rows="9" name="recipe" placeholder="Please insert recipe here"></textarea>
+        <form method="POST" action="/recipe" enctype="multipart/form-data">
+            <div class="col-md-6"> <!-- Adjust this column size to control the width -->
+                <div class="mb-3">
+                    <label for="recipe-textarea" class="form-label"><strong>Recipe:</strong></label>
+                    <textarea class="form-control" id="recipe-textarea" rows="9" name="recipe" placeholder="Please insert recipe here"></textarea>
+                </div>
             </div>
-        </div>
-        <button type="submit" class="btn btn-primary">Upload</button>
-    </form>
+            <button type="submit" class="btn btn-primary">Upload</button>
+        </form>
+    </div>
 
 {% endblock %}

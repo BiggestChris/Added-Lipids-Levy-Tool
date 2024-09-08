@@ -6,19 +6,24 @@
     
     <h1>Results</h1>
 
-    <h3>Recipe entered:</h3>
-    <p>
-        <pre class="custom-pre" >{{ recipe }}</pre>
-    </p>
+    <div class="container mb-5">
+        <h3>Results:</h3>
+        <p>
+            <pre class="custom-pre" >{{ results|safe }}</pre>
+        </p>
 
+        {% if results=='No results generated yet' and recipe!='No recipe entered yet' %}
+            <form method="POST" action="/results" enctype="multipart/form-data">
+                <button type="submit" class="btn btn-primary">Generate results</button>
+            </form>
+        {% endif %}
+    </div>
 
-    <h3>Results:</h3>
-    <p>
-        <pre class="custom-pre" >{{ results|safe }}</pre>
-    </p>
-
-    <form method="POST" action="/results" enctype="multipart/form-data">
-        <input type="submit" value="Generate results" />
-    </form>
+    <div class="container mb-1">
+        <h3>Recipe entered:</h3>
+        <p>
+            <pre class="custom-pre" >{{ recipe }}</pre>
+        </p>
+    </div>
 
 {% endblock %}
