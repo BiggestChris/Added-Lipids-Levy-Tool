@@ -56,11 +56,13 @@ def recipe():
 @app.route("/results", methods=['GET', 'POST'])
 def results():
     if request.method == 'POST':
+        # TODO: Error handling - Calling ChatGPT so need error handling here (either in function or outside)
         session['results'] =  comprehend_data(session['recipe'])
         # Create a new ChatHistory record
         new_chat = ChatHistory(prompt=session['recipe'], response=session['results'])
         
         # Add and commit the record to the database
+        # TODO: Error handling - Adding a record to database so need error handling
         db.session.add(new_chat)
         db.session.commit()
 
@@ -86,6 +88,7 @@ def results():
 
 @app.route("/records", methods=['GET'])
 def records():
+    # TODO: Error handling - Looking up records from database so need error handling
     records = ChatHistory.query.all()
     return render_template("records.html", records=records)
 

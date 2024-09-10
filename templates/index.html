@@ -19,28 +19,72 @@
         <a href="/recipe"><button type="button" class="btn btn-primary btn-lg">Recipe</button></a>
     </div>
 
-    <div class="container mt-5 mb-1">
-        <h4>How it works</h4>
-        <p>
-            Unnecessary lipids here are any compounds containing fats, that have been added to enhance flavour as opposed to being a key ingredient.
-            For many food items, these are needed to an extent as they impact the texture and consistency of the product, but to a point.
-            Going beyond this point will risk incurring a levy.
-        </p>
-        <p>
-            <em>For example: </em>
-            A run-of-the-mill cheeseburger with a single burger patty, cheese slice and bun would not incur a levy, but if you add 4 extra cheese slices
-            (at approximately 100 cals each) and then butter the buns with 1 tablespoon of butter (approximately 100 cals), then you've
-            added an extra 500 calories and so a £2 levy would be added.
-        </p>
+    <div id="accordion" class="container mb-5">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        How it works
+                    </button>
+                </h5>
+            </div>
+      
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    <p>
+                        Unnecessary lipids here are any compounds containing fats, that have been added to enhance flavour as opposed to being a key ingredient.
+                        For many food items, these are needed to an extent as they impact the texture and consistency of the product, but to a point.
+                        Going beyond this point will risk incurring a levy.
+                    </p>
+                    <p>
+                        <em>For example: </em>
+                        A run-of-the-mill cheeseburger with a single burger patty, cheese slice and bun would not incur a levy, but if you add 4 extra cheese slices
+                        (at approximately 100 cals each) and then butter the buns with 1 tablespoon of butter (approximately 100 cals), then you've
+                        added an extra 500 calories and so a £2 levy would be added.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Who is this for
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                    <p>
+                        This is app is for food producers (off-the-shelf food and restaurants) to determine what levy would be applied to their
+                        food items based on their recipes and ingredients.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        How will the levy be spent
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                    <p>
+                        The funds raised by the levy will be used for healthy food investment initiatives by schools and local authorities.
+                        A newly establised Healthy Food Innovation Fund, enabling schools to address rising health inequalities and childhood obesity with projects to boost healthy eating in school.
+                        It will be managed via local authorities and academy trusts, like the 2018/19 Healthy Pupils Capital Fund. 
+                    </p>
+                    <!--
+                        Inspiration taken from: https://www.sustainweb.org/news/jan21-refreshingsdil/
+                    -->
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="container mt-5 mb-1">
-        <h4>Who is this for</h4>
-        <p>
-            This is app is for food producers (off-the-shelf food and restaurants) to determine what levy would be applied to their
-            food items based on their recipes and ingredients.
-        </p>
-    </div>
 
     <!-- Flash messages section
     {% with messages = get_flashed_messages(with_categories=true) %}
