@@ -14,7 +14,7 @@ app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
-# Development config: connection string for local 
+# Development config: connection string for local database
 
 app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DEV_DATABASE_URL')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
@@ -23,6 +23,7 @@ db = SQLAlchemy(app)
 
 
 from models import ChatHistory
+from functions import generate_results
 
 # Ensure the tables are created when the app starts if they don't already exist in the database
 with app.app_context():
@@ -44,7 +45,8 @@ def index():
 def recipe():
     if request.method == 'POST':
         session['recipe'] = request.form.get('recipe')
-        session['results'] = '' # Reset results
+
+        generate_results()
 
         # print(session['recipe'])
 
@@ -56,15 +58,8 @@ def recipe():
 @app.route("/results", methods=['GET', 'POST'])
 def results():
     if request.method == 'POST':
-        # TODO: Error handling - Calling ChatGPT so need error handling here (either in function or outside)
-        session['results'] =  comprehend_data(session['recipe'])
-        # Create a new ChatHistory record
-        new_chat = ChatHistory(prompt=session['recipe'], response=session['results'])
         
-        # Add and commit the record to the database
-        # TODO: Error handling - Adding a record to database so need error handling
-        db.session.add(new_chat)
-        db.session.commit()
+        generate_results()
 
         return redirect("/results")
 
