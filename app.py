@@ -6,6 +6,7 @@ from functions_GPT import comprehend_data
 from requests.exceptions import RequestException
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
+from sqlalchemy.exc import SQLAlchemyError
 
 app = Flask(__name__)
 
@@ -58,7 +59,7 @@ def recipe():
 @app.route("/results", methods=['GET', 'POST'])
 def results():
     if request.method == 'POST':
-        
+
         generate_results()
 
         return redirect("/results")
@@ -83,9 +84,16 @@ def results():
 
 @app.route("/records", methods=['GET'])
 def records():
-    # TODO: Error handling - Looking up records from database so need error handling
-    records = ChatHistory.query.all()
-    return render_template("records.html", records=records)
+    try:
+        # Attempt to retrieve records from the database
+        records = ChatHistory.query.all()
+        return render_template("records.html", records=records)
+
+    except SQLAlchemyError as db_err:
+        # Handle any database errors that occur during the query
+        print(f"Database error while retrieving records: {str(db_err)}")
+        flash("There was an error retrieving records from the database.", "error")
+        return render_template("records.html", records=[])
 
 
 if __name__ == "__main__":
