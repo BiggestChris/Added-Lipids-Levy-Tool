@@ -1,6 +1,6 @@
 # Script to host ChatGPT functions - taken from other Inversity projects
 
-from openai import OpenAI
+from openai import OpenAI, OpenAIError, RateLimitError
 from dotenv import load_dotenv
 from requests.exceptions import RequestException
 
@@ -46,5 +46,22 @@ def comprehend_data(input_data):
 
         return output
     
-    except RequestException:
-        raise RequestException
+    except OpenAIError as e:
+        # Handle OpenAI API errors
+        print(f"OpenAI API error: {str(e)}")
+        return "There was an error processing your request with the AI."
+    
+    except RateLimitError:
+        # Handle rate limiting
+        print("Rate limit exceeded. Please try again later.")
+        return "Rate limit exceeded. Please try again later."
+
+    except RequestException as e:
+        # Handle request-related errors
+        print(f"Request error: {str(e)}")
+        return "There was a problem with the request to the server."
+
+    except Exception as e:
+        # Catch any other unexpected errors
+        print(f"Unexpected error: {str(e)}")
+        return "An unexpected error occurred."
